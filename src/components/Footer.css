@@ -1,0 +1,109 @@
+.footer {
+    width: 100%;
+    background-color: #242424;
+    color: #FFF;
+    padding: 100px 0px 0px 0px;
+}
+.footer-subscription-text {
+    text-align: center;
+}
+.footer-subscription-text h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding: 10px 10px;
+}
+.footer-subscription-text p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.footer-subscription-form {
+    margin-bottom: 100px;
+}
+.footer-subscription-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-subscription-form form input {
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    border-radius: 0px 10px 10px 0px;
+    transition: width 0.7s;
+    font-weight: 100;
+}
+.footer-subscription-form form input::placeholder {
+    color: rgb(187, 187, 187);
+}
+.footer-subscription-form form input:focus {
+    outline: none;
+    width: 400px;
+    border-radius: 0px;
+}
+.footer-links-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links h2 {
+    margin-bottom: 15px;
+}
+.footer-links a {
+    margin-bottom: 5px;
+}
+.footer-links a:hover {
+    opacity: 0.7;
+}
+.footer-social-media-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 10px;
+}
+.social-media a{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.social-media a:hover {
+    opacity: 0.7;
+}
+@media (max-width: 757px) {
+    .footer-links {
+        /* width: 23%; */
+        margin: 15px 40px;
+    }
+}
+@media (max-width: 600px) {
+    .footer-subscription-text h1 {
+        font-size: 20px;
+    }
+    .footer-subscription-text p {
+        font-size: 15px;
+    }
+    .footer-subscription-form form input:focus {
+        width: 250px;
+    }
+    .footer-links-containers {
+        flex-direction: column;
+    }
+    .footer-links {
+        margin: 0px 0px 20px;
+        text-align: center;
+    }
+    .footer-social-media-section  {
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+        /* align-items: center; */
+    }
+    .footer-social-media-section > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,40 @@
+:root {
+    --primary: #FFF;
+}
+.btn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn--primary {
+    font-size: 20px;
+    border: 2px solid #FFF;
+    transition: 0.7s;
+}
+.btn--primary:hover {
+    background-color: #FFF;
+    color: #000000;
+}
+.btn--outline {
+    color: #000;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    transition: .7s;
+}
+.btn--outline:hover {
+    color: #FFF;
+    background-color: transparent;
+}
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.btn--large {
+    padding: 8px 40px;
+    font-size: 25px;
+}
+.btn-mobile {
+    width: 70%;
+}
